@@ -1,0 +1,32 @@
+h1 {
+  color: green; }
+
+h2 {
+  color: red; }
+
+.margin {
+  margin-left: 20px;
+  margin-bottom: 15px; }
+
+.marginright {
+  margin-left: 10px; }
+
+.row > * {
+  width: auto; }
+
+.navbar-nav {
+  margin-left: 1000px; }
+
+.margin-left {
+  margin-left: 55px; }
+
+.user-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%; }
+
+.form-group {
+  margin-left: 10px; }
+
+.submit {
+  margin-top: 10px; }

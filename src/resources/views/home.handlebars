@@ -1,0 +1,22 @@
+
+<div class="mt-4">
+    <div class="row margin-left"  >
+        {{#each Course}} 
+        <div class="margin">
+            <div class="card" style="width: 18rem;">
+                <a href="/course/{{this.slug}}">
+                <img src="{{this.image}}" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <a href="/course/{{this.slug}}">
+                    <h5 class="card-title">{{this.name}}</h5>
+                    </a>
+                    <p class="card-text">{{this.decription}}</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+
+    </div>
+</div>
